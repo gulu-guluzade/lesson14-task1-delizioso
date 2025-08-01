@@ -1,5 +1,5 @@
-/* ========== FONTS ========== */
-/* === Poppins === */
+/* * ========== FONTS ========== */
+/* ! === Poppins === */
 @font-face {
   font-family: "poppins-regular";
   src: url("../Fonts/Poppins/Poppins-Regular.ttf");
@@ -15,19 +15,19 @@
   src: url("../Fonts/Poppins/Poppins-Medium.ttf");
 }
 
-/* === Tinos === */
+/* ! === Tinos === */
 @font-face {
   font-family: "tinos-bold";
   src: url("../Fonts/Tinos/Tinos-Bold.ttf");
 }
 
-/* === Raleway === */
+/* ! === Raleway === */
 @font-face {
   font-family: "raleway-bold";
   src: url("../Fonts/Raleway/Raleway-Bold.ttf");
 }
 
-/* ========== RESET ========== */
+/* * ========== RESET ========== */
 * {
   margin: 0;
   padding: 0;
@@ -40,4 +40,204 @@
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE 10+ */
   user-select: none; /* Standard */
+}
+
+/* * ========== Simple Components ========== */
+/* ! ========== Button ========== */
+.btn {
+  /*Display stuff*/
+  display: inline-block;
+  /*Box model stuff*/
+  background-color: #ff8a00;
+  /*Typography stuff*/
+  font-family: poppins-semiBold;
+  color: #ffffff;
+}
+
+/* ! ========== Title ========== */
+.title {
+  /*Typography stuff*/
+  font-family: tinos-bold;
+  font-size: 80px;
+  color: #311f09;
+}
+
+/* * ========== Complex components ========== */
+/* ! ========== Nav ==========  */
+.nav {
+  /*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  /*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*Miscellaneous*/
+  gap: 0 45px;
+}
+
+.nav__link {
+  /*Typography stuff*/
+  font-family: poppins-regular;
+  font-size: 14px;
+  color: #311f09;
+}
+
+.nav__link--color {
+  /*Typography stuff*/
+  color: #ff8a00;
+}
+
+.nav__btn-wrap {
+  /*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*Miscellaneous*/
+  gap: 0 25px;
+}
+
+.nav__cart {
+  /*Positioning stuff*/
+  position: relative;
+}
+
+.nav__cart::after {
+  /*Display stuff*/
+  content: "0";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*Positioning stuff*/
+  position: absolute;
+  right: 3px;
+  top: 8px;
+  /*Box model stuff*/
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #ff3838;
+  /*Typography stuff*/
+  font-family: poppins-medium;
+  font-size: 8px;
+  color: #ffffff;
+}
+
+.nav__btn--color {
+  /*Box model stuff*/
+  padding: 15px 34px 14px 36px;
+  border-radius: 133px;
+  background-color: #3fa72f;
+  /*Typography stuff*/
+  font-size: 14px;
+}
+
+/* ! ========== Сatalog ==========  */
+.catalog {
+  /*Display stuff*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /*Miscellaneous*/
+  gap: 30px 27.48px;
+}
+
+.catalog__btn {
+  /*Display stuff*/
+  display: inline-block;
+  /*Box model stuff*/
+  padding: 17px 60px;
+  border: none;
+  border-radius: 162.94px;
+  background-color: #d0ccc7;
+  /*Typography stuff*/
+  font-family: poppins-regular;
+  font-size: 20px;
+  color: #311f09;
+  /*Miscellaneous*/
+  cursor: pointer;
+}
+
+.catalog__btn--color {
+  /*Box model stuff*/
+  background-color: #311f09;
+  /*Typography stuff*/
+  color: #ffffff;
+}
+
+/* ! ========== Cards ==========  */
+.cards {
+  /*Display stuff*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /*Miscellaneous*/
+  gap: 40px;
+}
+
+.cards__item {
+  /*Display stuff*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /*Box model stuff*/
+  width: 344px;
+  min-height: 637px;
+  padding: 35px 28px;
+  border-radius: 70px;
+  background-color: #d0ccc7;
+  /*Typography stuff*/
+  text-align: center;
+  /*Miscellaneous*/
+  overflow: hidden;
+}
+
+.cards__title {
+  /*Typography stuff*/
+  font-family: poppins-semiBold;
+  font-size: 30px;
+  color: #311f09;
+}
+
+.cards__rating {
+  /*Box model stuff*/
+  margin: 15px 0;
+}
+
+.cards__desc {
+  /*Box model stuff*/
+  margin-bottom: 30px;
+  /*Typography stuff*/
+  font-family: poppins-regular;
+  font-size: 14px;
+  color: #59442b;
+}
+
+.cards__bottom {
+  /*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*Miscellaneous*/
+  gap: 0 34px;
+}
+
+.cards__price {
+  /*Typography stuff*/
+  font-family: poppins-semiBold;
+  font-size: 25px;
+  color: #311f09;
+}
+
+.cards__btn {
+  /*Box model stuff*/
+  padding: 11.5px 36.47px;
+  border-radius: 162.94px;
 }
