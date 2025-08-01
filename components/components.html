@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <title>Components</title>
+  </head>
+  <body>
+    <!-- * ========== Simple Components ========== -->
+    <!-- ! ========== Button ========== -->
+    <a class="btn" href="#">Button</a>
+
+    <!-- ! ========== Title ========== -->
+    <h2 class="title">Title</h2>
+
+    <!-- * ========== Complex components ========== -->
+    <!-- ! ========== Nav ========== -->
+    <nav class="nav">
+      <a href="../index.html" class="nav__logo-link">
+        <img src="../images/logo/logo.svg" alt="Logo" class="nav__logo" />
+      </a>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link nav__link--color">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Menu</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">About us</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Order online</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Reservation</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Contact us</a>
+        </li>
+      </ul>
+      <div class="nav__btn-wrap">
+        <a href="#" class="nav__cart">
+          <img
+            src="../images/icons/cart.svg"
+            alt="Cart"
+            class="nav__cart-img"
+          />
+        </a>
+        <a class="btn nav__btn nav__btn--color" href="#">Log in</a>
+      </div>
+    </nav>
+
+    <!-- ! ========== Сatalog ========== -->
+    <div class="catalog">
+      <button type="button" class="catalog__btn catalog__btn--color">
+        All catagory
+      </button>
+      <button type="button" class="catalog__btn">Dinner</button>
+      <button type="button" class="catalog__btn">Lunch</button>
+      <button type="button" class="catalog__btn">Dessert</button>
+      <button type="button" class="catalog__btn">Drink</button>
+    </div>
+
+    <!-- ! ========== Cards ========== -->
+    <ul class="cards">
+      <li class="cards__item">
+        <img
+          src="../images/cards/Spaghetti.png"
+          alt="Spaghetti"
+          class="cards__img"
+        />
+        <h3 class="cards__title">Spaghetti</h3>
+        <div class="cards__rating">
+          <img
+            src="../images/icons/orange-star.svg"
+            alt="orange color star"
+            class="cards__star"
+          />
+          <img
+            src="../images/icons/orange-star.svg"
+            alt="orange color star"
+            class="cards__star"
+          />
+          <img
+            src="../images/icons/orange-star.svg"
+            alt="orange color star"
+            class="cards__star"
+          />
+          <img
+            src="../images/icons/orange-star.svg"
+            alt="orange color star"
+            class="cards__star"
+          />
+          <img
+            src="../images/icons/white-star.svg"
+            alt="orange color star"
+            class="cards__star"
+          />
+        </div>
+        <p class="cards__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+          consequat mi eget auctor aliquam, diam.
+        </p>
+        <div class="cards__bottom">
+          <strong class="cards__price">$12.05</strong>
+          <a class="btn cards__btn" href="#">Order now</a>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>
