@@ -152,3 +152,17 @@ header {
   padding: 17px 46px;
   border-radius: 162.94px;
 }
+
+/* ************** Menu ************** */
+.menu__title {
+  text-align: center;
+  margin: 165px 0 60px;
+}
+
+.menu__catalog {
+  margin-bottom: 60px;
+}
+
+.menu__pagination {
+  margin-top: 89px;
+}
