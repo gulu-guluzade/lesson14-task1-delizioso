@@ -166,7 +166,7 @@
   padding: 17px 60px;
   border: none;
   border-radius: 162.94px;
-  background-color: #d0ccc7;
+  background-color: rgba(208, 204, 199, 0.1);
   /*Typography stuff*/
   font-family: poppins-regular;
   font-size: 20px;
@@ -204,7 +204,7 @@
   min-height: 637px;
   padding: 35px 28px;
   border-radius: 70px;
-  background-color: #d0ccc7;
+  background-color: rgba(208, 204, 199, 0.1);
   /*Typography stuff*/
   text-align: center;
   /*Miscellaneous*/
