@@ -1,3 +1,4 @@
+/* ************** Header ************** */
 header {
   /*Box model stuff*/
   margin: 51px 0 155px;
@@ -87,4 +88,67 @@ header {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+/* ************** Welcome ************** */
+.welcome {
+  /*Box model stuff*/
+  padding: 147px 0 133px;
+  background-color: rgba(63, 198, 110, 0.1);
+}
+
+.welcome__inner {
+  /*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome__img {
+  /*Positioning stuff*/
+  position: relative;
+  /*Box model stuff*/
+  width: 706px;
+  height: 689px;
+}
+
+.welcome__img img {
+  /*Positioning stuff*/
+  position: absolute;
+  left: -141px;
+  top: 0;
+}
+
+.welcome__content {
+  /*Display stuff*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.welcome__title {
+  /*Box model stuff*/
+  width: 408px;
+}
+
+.welcome__title--color {
+  /*Typography stuff*/
+  color: rgba(255, 138, 0, 1);
+}
+
+.welcome__desc {
+  /*Box model stuff*/
+  width: 433px;
+  margin: 60px 0 122px;
+  /*Typography stuff*/
+  font-family: poppins-regular;
+  font-size: 20px;
+  color: rgba(92, 69, 41, 1);
+}
+
+.welcome__btn {
+  /*Box model stuff*/
+  padding: 17px 46px;
+  border-radius: 162.94px;
 }
